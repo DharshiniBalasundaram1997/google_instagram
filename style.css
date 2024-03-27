@@ -1,0 +1,424 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+    border-bottom: 1px solid rgb(209, 205, 205);
+    background-color:aliceblue;
+    padding: 10px 10px;   
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header_sticky{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    flex-wrap: wrap;
+}
+
+.instalogo_container{
+    display: flex;
+    /* border: 3px solid rgb(225, 16, 201); */
+    margin-left: 255px;
+}
+
+.instagarm_logo{
+    color: black;    
+}
+
+.header_right_side_buttons_container{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    /* border: 1px solid green; */
+    margin-right: 100px;
+}
+
+.Login{
+    background-color: rgb(0, 149, 246);
+    border: none;
+    padding: 10px 15px 7px 15px;
+    color: white;
+    border-radius: 9px;
+    font-weight: 550;
+    flex-wrap: wrap;
+}
+
+.Login:hover{
+    background-color: rgb(21, 119, 184);
+}
+
+.SignUp{
+    border: none;
+    padding: 10px 20px 7px 20px;
+    color:  rgb(0, 149, 246);
+    border-radius: 9px;
+    font-weight: 500;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.SignUp:hover{
+    color: rgb(21, 119, 184);
+}
+/* Header */
+
+
+/* Main Header */
+
+.Main_Header_container{
+    display: flex;
+    /* border: 1px solid rgb(198, 150, 180); */
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.google_leftside_image_container{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.goole_image{
+    border: 1px solid rgb(232, 234, 232);
+    border-radius: 80%;
+}
+
+.Verified_color{
+    color: rgb(9, 128, 206);
+}
+
+.Follow{
+    background-color: rgb(222, 224, 225);
+    border: none;
+    padding: 5px 15px;
+    color: rgb(62, 61, 61);
+    text-align: center;
+    border-radius: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Follow:hover{
+    background-color: rgb(189, 192, 192);
+}
+
+.Message{
+    background-color: rgb(222, 224, 225);
+    border: none;
+    padding: 5px 15px;
+    color: rgb(62, 61, 61);
+    border-radius: 9px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Message:hover{
+    background-color: rgb(189, 192, 192);
+}
+
+.google_rightside_content_container{
+    /* border: 5px solid rgb(212, 233, 22); */
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    position: relative;
+    width: 350px;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.space_for_google_verified_and_follow_message_container{
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: -1;
+}
+
+.google_and_verified_container{
+    top: 0;
+    left:0;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.google_word{
+    font-size: 20px;
+}
+
+.follow_message_container{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+    gap: 8px;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.posts_followers_following_container{
+    /* border: 2px solid rgb(23, 4, 223); */
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 71px;
+    left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.decor{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    /* border: 2px solid pink; */
+}
+
+.google_threads{
+    /* border: 2px solid rgb(201, 70, 14); */
+    position: relative;
+    top: 75px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.google_threads1{
+    /* border: 2px solid rgb(201, 70, 14); */
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+.google_threads2{
+    /* border: 2px solid rgb(227, 168, 143); */
+    margin-top: 0px;
+    font-size: 8px;   
+}
+
+.Internetcompany{
+    color: gray;
+    font-size: 11px;
+    /* border: 2px solid rgb(227, 168, 143); */
+}
+
+.filter{
+    color: rgb(5, 4, 4);
+    font-size: 11px;
+    /* border: 2px solid rgb(227, 168, 143); */
+}
+
+.google_link{
+    /* border: 2px solid rgb(227, 168, 143); */
+    margin-top: -7px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.thread_button{
+    /* border: 2px solid rgb(227, 168, 143); */
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    border: none;
+    gap: 5px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thread_symbol{
+    /* border: 2px solid rgb(224, 85, 25); */
+    border: none;
+}
+/* Main Header */
+
+/* icon container */
+.round_icons_container{
+    /* border: 4px solid rgb(235, 216, 7); */
+    padding: 3px;
+    display: flex;
+    padding-left: 300px;
+    box-sizing: border-box;
+}
+
+.square{
+    /* border: 4px solid rgb(57, 57, 122); */
+    padding: 10px;
+    width: 550px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-content: space-between;
+}
+
+.first_round_container{
+    /* border: 4px solid rgb(57, 57, 122); */
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.round_icon1{
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inner_round_icon1{
+    /* border: 2px solid rgb(29, 20, 202); */
+    border: none;
+    background-color: rgb(214, 120, 26);
+    padding: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.gemini{
+    /* border: 2px solid rgb(29, 20, 202); */
+    margin: 0px;
+    font-size: 12px;
+}
+/* icon container */
+
+
+/* posts_reels_tags_container */
+.posts_reels_tags_container{
+    /* border: 4px solid rgb(238, 114, 114); */
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    box-sizing: border-box;
+}
+
+.posts_and_image_container{
+    /* border: 4px solid rgb(193, 5, 218); */
+    padding: 10px;
+    width: 750px;
+    /* display: flex; */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.posts_reels_tags_hedline_box{
+    /* border: 4px solid rgb(183, 211, 20); */
+    padding: 1px 300px;
+    box-sizing: border-box;
+    flex-wrap: wrap;  
+}
+
+.wrapp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 65px;
+    /* border: 4px solid rgb(20, 154, 211); */
+}
+
+
+.posts{
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid rgb(35, 40, 5); */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.posts2{
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid rgb(35, 40, 5); */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.posts3{
+    /* border: 2px solid rgb(35, 40, 5); */
+}
+
+.post33{
+    display: flex;
+    flex-direction: row;
+    /* border: 4px solid rgb(20, 154, 211);  */
+    /* margin: 10px; */
+    /* padding: 10px; */
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+
+}
+
+.posts_word{
+    /* border: 2px solid rgb(57, 57, 122); */
+    color: black; 
+}
+
+.posts_height_width{
+    height: 17px;
+    width: 15px;
+    color: black;
+    /* border: 3px solid rgb(181, 13, 128); */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* posts_reels_tags_container */
+
+/* image_card_container */
+.posts_image_card{
+    /* border: 3px solid rgb(13, 181, 21); */
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+}
+
+.image_space{
+    margin: 2px 2px;
+    padding: 2px;
+    /* border: 3px solid rgb(228, 30, 185);  */
+}
+/* image_card_container */

@@ -1,0 +1,149 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 100px auto;
+    box-sizing: border-box;
+    width: 340px;
+    /* border: 1px solid rgb(234, 84, 84); */
+    background-color: rgb(109, 22, 109);
+}
+
+
+.card{
+    background-color: white;
+    border-radius: 16px;
+    padding-bottom: 10px;
+}
+
+.Close_button{
+    top: 0;
+    text-align: right;
+    /* border: 1px solid rgb(210, 19, 19); */
+    border-radius: 16px;
+    padding: 7px;   
+}
+
+.Instagram{
+    /* border: 1px solid rgb(210, 19, 19); */
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.button_container{
+    /* border: 1px solid rgb(210, 19, 19); */
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.ph_un_text{
+    padding: 10px 0px 10px 10px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(182, 179, 179);
+    font-size: 8px;
+    width: 200px;
+}
+
+.passtext{
+    padding: 10px 0px 10px 10px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(182, 179, 179);
+    font-size: 8px;
+    width: 200px;
+
+}
+
+.Login{
+    padding: 5px;
+    background-color: rgb(0, 149, 246);
+    border: none;
+    font-size: 10px;
+    width: 210px;
+    color: white;
+    border-radius: 7px;
+}
+
+.border_bottom_left{
+    /* border: 1px solid rgb(219, 26, 26); */
+    width: 90px;
+    background-color: rgb(215, 216, 216);
+    border: none;
+    height: 0.1px;
+}
+
+
+.or{
+    /* border: 1px solid rgb(182, 179, 179); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 10PX;
+    font-weight: 500;
+    color: gray;
+}
+
+.border_bottom_right{
+    /* border: 1px solid rgb(219, 26, 26); */
+    width: 90px;
+    background-color: rgb(215, 216, 216);
+    border: none;
+    height: 0.1px;
+}
+
+.facebook_container{
+    /* border: 1px solid rgb(75, 6, 225); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.facebook_link{
+    text-decoration: none;
+    color: rgb(75, 6, 225);
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.forgotten_password_container{
+    /* border: 1px solid rgb(75, 6, 225); */
+    text-align: center;
+    margin-top: 8px;
+}
+
+.forgotten_password{
+    text-decoration: none;
+    color: gray;
+    font-size: 8px;
+}
+
+.footer_section{
+    /* border: 1px solid rgb(75, 6, 225); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.SignUp{
+    border: none;
+    padding: 10px 20px 7px 20px;
+    color:  rgb(0, 149, 246);
+    font-weight: 500;
+    background-color: white;
+    font-size: 10px;
+    /* border: 1px solid rgb(75, 6, 225); */
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 6px;
+    
+}
+
+.dont_have_account{
+    font-size: 10px;
+    display: flex;
+    /* border: 1px solid rgb(75, 6, 225); */
+}
